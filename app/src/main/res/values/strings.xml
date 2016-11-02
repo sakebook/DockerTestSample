@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DockerTestSample</string>
+    <string name="morning">Good morning.</string>
+    <string name="afternoon">Good afternoon.</string>
+    <string name="evening">Good evening.</string>
+    <string name="night">Good night.</string>
 </resources>

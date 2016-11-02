@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DockerTestSample</string>
+    <string name="morning">おはよう。</string>
+    <string name="afternoon">こんにちは。</string>
+    <string name="evening">こんばんは。</string>
+    <string name="night">おやすみ。</string>
+</resources>
