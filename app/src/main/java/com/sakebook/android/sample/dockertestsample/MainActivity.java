@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        GreetingMaker greetingMaker = new GreetingMaker(this, new Date());
+        GreetingMaker greetingMaker = new GreetingMaker(this);
         TextView textView = (TextView) findViewById(R.id.text);
-        textView.setText(greetingMaker.createGreet());
+        textView.setText(greetingMaker.createGreet(new Date()));
     }
 }

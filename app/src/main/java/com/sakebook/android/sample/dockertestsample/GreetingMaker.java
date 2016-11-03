@@ -12,16 +12,14 @@ import java.util.Date;
 public class GreetingMaker {
 
     private Context context;
-    private Date date;
 
-    public GreetingMaker(Context context, Date now) {
+    public GreetingMaker(Context context) {
         this.context = context;
-        this.date = now;
     }
 
-    public String createGreet() {
+    public String createGreet(Date now) {
         Calendar cal = Calendar.getInstance();
-        cal.setTime(date);
+        cal.setTime(now);
         int hour = cal.get(Calendar.HOUR_OF_DAY);
         if (5 <= hour && 11 > hour) {
             return context.getString(R.string.morning);
